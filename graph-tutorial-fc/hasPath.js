@@ -21,15 +21,9 @@ const hasPathDFS = (graph, source, destination) => {
 
 const hasPathDFSRecursion = (graph, source, destination) => {
 
-    if(!graph[source] || !graph) return false;
+    // if(!graph[source] || !graph) return false;
     
-
-    console.log(source);
-    if(source == destination) {
-
-        console.log("match found");
-        return true;
-    }
+    if(source == destination) return true;
 
     for(let neighbour of graph[source]){
             

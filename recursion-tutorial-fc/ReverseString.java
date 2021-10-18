@@ -11,7 +11,6 @@ public class ReverseString {
     public static void main(String[] args){
 
         System.out.println(ReverseString.reverse("Hello"));
-        String a = "a";
         
         //""
         //o + l
