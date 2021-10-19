@@ -1,19 +1,13 @@
-const fib = (number, memo = {}) => {
+const fib = (n) => {
 
-    if(number in memo) return memo[number];
-    if(number <= 2) return 1;
+    if(n <=2) return 1;
 
-    let result = fib(number -2, memo) + fib(number -1, memo);
-    memo[number] = result;
-
-    return result;
+    return fib(n-2) + fib(n-1);
 }
 
 
-// console.log(fib(-1));
-// console.log(fib(2));
-// console.log(fib(3));
-// console.log(fib(4));
-// console.log(fib(5));
+
 // console.log(fib(6));
-console.log(fib(50));
+// console.log(fib(7));
+// console.log(fib(8));
+console.log(fib(50)); //problem
