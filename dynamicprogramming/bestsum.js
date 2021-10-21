@@ -1,4 +1,4 @@
-const howsum = (arr, target, memo = {}) => {
+const bestsum = (arr, target, memo = {}) => {
 
     if(target in memo) return memo[target];
     if(target < 0) return null;
@@ -6,7 +6,7 @@ const howsum = (arr, target, memo = {}) => {
 
     for(let val of arr) {
         
-        let res = howsum(arr, target - val, memo);
+        let res = bestsum(arr, target - val, memo);
         if(res != null) {
             memo[target] = res;
             return [ ...res, val];
@@ -19,7 +19,8 @@ const howsum = (arr, target, memo = {}) => {
 
 
 
-console.log(howsum([2,3, 7], 7));
-console.log(howsum([2,4], 7));
-console.log(howsum([2,3, 5], 8));
-console.log(howsum([7,14], 300));
+console.log(bestsum([2,3, 5], 5)); //5
+console.log(bestsum([5,3,4,7], 7)); //7
+console.log(bestsum([1,4, 5], 8)); //4, 4
+console.log(bestsum([7,14], 300));
+console.log(bestsum([1,2, 5, 25], 100));

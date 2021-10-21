@@ -10,4 +10,4 @@ const fib = (n) => {
 // console.log(fib(6));
 // console.log(fib(7));
 // console.log(fib(8));
-console.log(fib(50)); //problem
+console.log(fib(50)); //problem->see fib-memo for optimized solution
