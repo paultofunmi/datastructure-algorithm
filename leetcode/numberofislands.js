@@ -43,7 +43,7 @@ const grid1 = [
     [ '0', '0', '0', '0', '0' ]
   ]; //1
   
-console.log(numIslands(grid1));
+// console.log(numIslands(grid1));
 
 
 const grid2 = [
