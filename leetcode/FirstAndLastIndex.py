@@ -1,4 +1,4 @@
-class Solution:
+class com.solutions.Solution:
   def getRange(self, arr, target):
     first = self.binarySearchIterative(arr, 0, len(arr) - 1, target, True)
     last = self.binarySearchIterative(arr, 0, len(arr) - 1, target, False)
@@ -45,5 +45,5 @@ class Solution:
 
 arr = [1, 3, 3, 5, 7, 8, 9, 9, 9, 9, 15]
 x = 9
-print(Solution().getRange(arr, 9))
+print(com.solutions.Solution().getRange(arr, 9))
 # [6, 8]

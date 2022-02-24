@@ -18,6 +18,26 @@ Avoid these:
 - Jumping into the coding without giving thought to how you will code the solution.
 - Not confirming the inputs to problem statements matches what the interviewer expects
 
+### Web Resources
+- https://cheonhyangzhang.gitbooks.io/leetcode-solutions/content/solutions-451-500/490-the-maze.html
+- https://github.com/paultofunmi/every-programmer-should-know
+- https://github.com/paultofunmi/Facebook-Interview-Coding
+- https://github.com/paultofunmi/coding-interview-university
+- https://github.com/paultofunmi/system-design-primer
+- https://www.youtube.com/watch?v=YgzpqlF54lo&list=PLKQ5LYb497AZIZe9dBWy8GwLluVaMQVj0 (Think Like a programmer playlist)
+- https://www.youtube.com/watch?v=pfiQ_PS1g8E&list=PLot-Xpze53lf5C3HSjCnyFghlW0G1HHXo (Backtracking problems)
+- https://www.youtube.com/watch?v=Zq4upTEaQyM&list=PLiQ766zSC5jM2OKVr8sooOuGgZkvnOCTI (Dynamic Programming, Recursion, & Backtracking - Back to Back SWE)
+- https://www.youtube.com/watch?v=U6-X_QOwPcs&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp- (Nick White Leetcode solutions)
+
+### Leetcode algorithm tags
+- https://leetcode.com/tag/backtracking/
+- https://leetcode.com/tag/matrix/
+- https://leetcode.com/tag/array/
+- https://leetcode.com/tag/dynamic-programming/
+
+### Company Challenges
+- https://app.codesignal.com/company-challenges/uber
+- https://app.codesignal.com/company-challenges/codesignal
 
 FAANG Candidates are evaluated based on: 
 - Coding - How clean & structured is your code?  Could you write the code that you said you would write?  Did you cover the edge and base cases?  Are your variables and functions well-named? 

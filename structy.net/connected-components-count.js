@@ -12,7 +12,7 @@ const connectedComponentsCount = (graph) => {
       result += count(graph, idx, visited);
     }
     
-    console.log(result);
+    // console.log(result);
     return result;
   };
   
@@ -32,6 +32,7 @@ const connectedComponentsCount = (graph) => {
      return 1;
   }
   
+console.log(
   connectedComponentsCount({
     0: [8, 1, 5],
     1: [0],
@@ -40,4 +41,5 @@ const connectedComponentsCount = (graph) => {
     2: [3, 4],
     3: [2, 4],
     4: [3, 2]
-  });
+  })
+); //2

@@ -32,7 +32,7 @@ Guaranteed constraints:
 
 
 
-Solution
+com.solutions.Solution
 long sumOfReversed(int[] arr) {
         
     long result = 0;

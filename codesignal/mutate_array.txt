@@ -38,7 +38,7 @@ a.length = n,
 The resulting array after the mutation.
 
 
-Solution: 
+com.solutions.Solution:
 int[] mutateTheArray(int n, int[] a) {
     
     int[] b = new int[a.length];

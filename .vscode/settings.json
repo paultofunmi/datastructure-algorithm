@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "siddy",
+        "leetcode",
+        "hackerrank",
+        "collections",
+        "codesignal/com/solutions",
+        "codesignal"
+    ]
+}
