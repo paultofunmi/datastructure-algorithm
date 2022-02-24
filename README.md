@@ -28,6 +28,7 @@ Avoid these:
 - https://www.youtube.com/watch?v=pfiQ_PS1g8E&list=PLot-Xpze53lf5C3HSjCnyFghlW0G1HHXo (Backtracking problems)
 - https://www.youtube.com/watch?v=Zq4upTEaQyM&list=PLiQ766zSC5jM2OKVr8sooOuGgZkvnOCTI (Dynamic Programming, Recursion, & Backtracking - Back to Back SWE)
 - https://www.youtube.com/watch?v=U6-X_QOwPcs&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp- (Nick White Leetcode solutions)
+- https://cheonhyangzhang.gitbooks.io/leetcode-solutions/content/ (leetcode solutions)
 
 ### Leetcode algorithm tags
 - https://leetcode.com/tag/backtracking/
@@ -38,6 +39,9 @@ Avoid these:
 ### Company Challenges
 - https://app.codesignal.com/company-challenges/uber
 - https://app.codesignal.com/company-challenges/codesignal
+
+### Sample Facebook offer Journey 
+- https://leetcode.com/discuss/interview-experience/1243797/amazon-sde-2-reject-google-l4-reject-facebook-e4-offer-my-journey
 
 FAANG Candidates are evaluated based on: 
 - Coding - How clean & structured is your code?  Could you write the code that you said you would write?  Did you cover the edge and base cases?  Are your variables and functions well-named? 
