@@ -20,6 +20,14 @@ Avoid these:
 
 ### Web Resources
 - https://cheonhyangzhang.gitbooks.io/leetcode-solutions/content/ (leetcode solutions)
+- https://github.com/YaokaiYang-assaultmaster/LeetCode/tree/master/LeetcodeAlgorithmQuestions
+- https://leetcode.com/discuss/study-guide/1800120/become-master-in-linked-list (linkedList)
+- https://leetcode.com/discuss/study-guide/1733447/Become-Master-In-Recursion (recursion)
+- https://leetcode.com/discuss/study-guide/1747722/How-to-Solve-Dynamic-Programming-Problems-in-Coding-Interviews   
+- https://leetcode.com/explore/learn/card/dynamic-programming/ (DP learning card)
+- https://www.youtube.com/watch?v=o8S2bO3pmO4&list=PLi9RQVmJD2favxCtUriAN3VQtOwbl4izA (Leetcode medium)  
+- https://leetcode.com/explore/featured/card/heap/ (Heap learning card)
+- https://leetcode.com/explore/featured/card/graph/ (Graph) 
 - https://github.com/paultofunmi/every-programmer-should-know
 - https://github.com/paultofunmi/Facebook-Interview-Coding
 - https://github.com/paultofunmi/coding-interview-university
@@ -28,6 +36,8 @@ Avoid these:
 - https://www.youtube.com/watch?v=pfiQ_PS1g8E&list=PLot-Xpze53lf5C3HSjCnyFghlW0G1HHXo (Backtracking problems)
 - https://www.youtube.com/watch?v=Zq4upTEaQyM&list=PLiQ766zSC5jM2OKVr8sooOuGgZkvnOCTI (Dynamic Programming, Recursion, & Backtracking - Back to Back SWE)
 - https://www.youtube.com/watch?v=U6-X_QOwPcs&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp- (Nick White Leetcode solutions)
+- https://www.youtube.com/watch?v=utDu3Q7Flrw&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI (Graph Solutions Leetcode)
+- https://leetcode.com/discuss/interview-experience/433178/Amazon-or-SDE3-or-Dallas-or-Nov-2019
 
 ### Leetcode algorithm tags
 - https://leetcode.com/tag/backtracking/
@@ -49,3 +59,23 @@ Data Structures & Algorithms - Could you come up with a suitable algorithm or da
 - Communication - Were you able to clarify the problem as needed, and then explain the solution?  Many software engineers will try to talk as they are coding, and the words come out as a jumble of stuttered "uhmm.... hold on... ah.... wait.... give me 2 seconds... oh... ,nevermind..."  Some engineers simply talk in a way that is too technical and incomprehensible "... then we increment the variable i by the variable j minus one and check if j is equal to k..."  The ability to communicate effectively is crucial because coding is a team sport at the end of the day.
 
 - Speed & Efficiency - Unlike in the old days, tech companies have been trying to avoid "aha!" moments where candidates either know or don't know the answer.  It is far more favored for interviewers to ask questions that can build atop of itself (such as increasingly adding restrictions or pushing for faster time/space), so that interviewers can get some signal on the candidate's ability beyond just "pass" or "no pass."  This is why fluidity & confidence is essential.  So, even if you may have heard of some of these problems before once or twice, it really helps to become great at these and see how "the pros" solve these problems to help you recognize patterns in code and in crafting elegant & simple solutions.
+
+## Djikstra Algorithm
+- Init distance of start vertex from start vertex to 0
+- Init distance to all other vertices from start as infinity
+While vertices remain unvisited 
+  - Visit the unvisited vertex with the smallest known distance from start vertex (call this current vertext)
+  - for each unvisited neighbour of the current vertex
+    - calculate the distance from start vertex
+    - if the calculated distance of this vertex is less than the known distance
+      - update the shortest distance to this vertex
+      - update the previous vertex with the current vertex
+    - end if
+  - Next unvisited neighbour  
+  - Add the current vertex to the list of visited vertices
+- END WHILE    
+
+## Bellman Ford
+- handles with negative weight which Dijk can't 
+- handles with constraints which Dijk can't
+both bellman and dijk fail on graph with negative cycles.
