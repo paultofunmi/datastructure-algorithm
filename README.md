@@ -25,19 +25,28 @@ Avoid these:
 - https://leetcode.com/discuss/study-guide/1733447/Become-Master-In-Recursion (recursion)
 - https://leetcode.com/discuss/study-guide/1747722/How-to-Solve-Dynamic-Programming-Problems-in-Coding-Interviews   
 - https://leetcode.com/explore/learn/card/dynamic-programming/ (DP learning card)
-- https://www.youtube.com/watch?v=o8S2bO3pmO4&list=PLi9RQVmJD2favxCtUriAN3VQtOwbl4izA (Leetcode medium)  
 - https://leetcode.com/explore/featured/card/heap/ (Heap learning card)
 - https://leetcode.com/explore/featured/card/graph/ (Graph) 
 - https://github.com/paultofunmi/every-programmer-should-know
 - https://github.com/paultofunmi/Facebook-Interview-Coding
 - https://github.com/paultofunmi/coding-interview-university
 - https://github.com/paultofunmi/system-design-primer
+- https://leetcode.com/discuss/interview-experience/433178/Amazon-or-SDE3-or-Dallas-or-Nov-2019
+- https://leetcode.com/discuss/interview-experience/433178/Amazon-or-SDE3-or-Dallas-or-Nov-2019
+
+
+### Videos
+- https://www.youtube.com/watch?v=G0_I-ZF0S38&list=PLot-Xpze53leU0Ec0VkBhnf4npMRFiNcB (LinkedList playlist)
+- https://www.youtube.com/watch?v=OnSn2XEQ4MY&list=PLot-Xpze53ldg4pN6PfzoJY7KsKcxF1jg (Tree playlist)
+- https://www.youtube.com/playlist?list=PLot-Xpze53leNZQd0iINpD-MAhMOMzWvO (Binary Search playlist)
+- https://www.youtube.com/watch?v=73r3KWiEvyk&list=PLot-Xpze53lcvx_tjrr_m2lgD2NsRHlNO&t=0s (DP playlist)
+- https://www.youtube.com/watch?v=pfiQ_PS1g8E&list=PLot-Xpze53lf5C3HSjCnyFghlW0G1HHXo (Backtracking problems)  
+- https://www.youtube.com/watch?v=Zq4upTEaQyM&list=PLiQ766zSC5jM2OKVr8sooOuGgZkvnOCTI (Dynamic Programming, Recursion, & Backtracking - Back to Back SWE)  
+- https://www.youtube.com/watch?v=EgI5nU9etnU&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&t=0s (Graph)
 - https://www.youtube.com/watch?v=YgzpqlF54lo&list=PLKQ5LYb497AZIZe9dBWy8GwLluVaMQVj0 (Think Like a programmer playlist)
-- https://www.youtube.com/watch?v=pfiQ_PS1g8E&list=PLot-Xpze53lf5C3HSjCnyFghlW0G1HHXo (Backtracking problems)
-- https://www.youtube.com/watch?v=Zq4upTEaQyM&list=PLiQ766zSC5jM2OKVr8sooOuGgZkvnOCTI (Dynamic Programming, Recursion, & Backtracking - Back to Back SWE)
 - https://www.youtube.com/watch?v=U6-X_QOwPcs&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp- (Nick White Leetcode solutions)
 - https://www.youtube.com/watch?v=utDu3Q7Flrw&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI (Graph Solutions Leetcode)
-- https://leetcode.com/discuss/interview-experience/433178/Amazon-or-SDE3-or-Dallas-or-Nov-2019
+
 
 ### Leetcode algorithm tags
 - https://leetcode.com/tag/backtracking/
@@ -76,6 +85,5 @@ While vertices remain unvisited
 - END WHILE    
 
 ## Bellman Ford
-- handles with negative weight which Dijk can't 
-- handles with constraints which Dijk can't
-both bellman and dijk fail on graph with negative cycles.
+- handles negative weight which Dijkstra can't because Dijkstra is greedy
+- both bellman and dijkstra fail on graph with negative cycles.
