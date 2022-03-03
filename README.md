@@ -34,6 +34,9 @@ Avoid these:
 - https://leetcode.com/discuss/interview-experience/433178/Amazon-or-SDE3-or-Dallas-or-Nov-2019
 - https://leetcode.com/discuss/interview-experience/433178/Amazon-or-SDE3-or-Dallas-or-Nov-2019
 
+### Basics
+- https://www.youtube.com/watch?v=tWVWeAqZ0WU (Graph Basics - freecodecamp - Alvin)
+- https://www.youtube.com/watch?v=oBt53YbR9Kk (DP basics - Freecodecamp - Alvin)
 
 ### Videos
 - https://www.youtube.com/watch?v=G0_I-ZF0S38&list=PLot-Xpze53leU0Ec0VkBhnf4npMRFiNcB (LinkedList playlist)
@@ -41,12 +44,11 @@ Avoid these:
 - https://www.youtube.com/playlist?list=PLot-Xpze53leNZQd0iINpD-MAhMOMzWvO (Binary Search playlist)
 - https://www.youtube.com/watch?v=73r3KWiEvyk&list=PLot-Xpze53lcvx_tjrr_m2lgD2NsRHlNO&t=0s (DP playlist)
 - https://www.youtube.com/watch?v=pfiQ_PS1g8E&list=PLot-Xpze53lf5C3HSjCnyFghlW0G1HHXo (Backtracking problems)  
-- https://www.youtube.com/watch?v=Zq4upTEaQyM&list=PLiQ766zSC5jM2OKVr8sooOuGgZkvnOCTI (Dynamic Programming, Recursion, & Backtracking - Back to Back SWE)  
-- https://www.youtube.com/watch?v=EgI5nU9etnU&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&t=0s (Graph)
+- https://www.youtube.com/watch?v=Zq4upTEaQyM&list=PLiQ766zSC5jM2OKVr8sooOuGgZkvnOCTI (Dynamic Programming, Recursion, & Backtracking - Back to Back SWE)
 - https://www.youtube.com/watch?v=YgzpqlF54lo&list=PLKQ5LYb497AZIZe9dBWy8GwLluVaMQVj0 (Think Like a programmer playlist)
 - https://www.youtube.com/watch?v=U6-X_QOwPcs&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp- (Nick White Leetcode solutions)
-- https://www.youtube.com/watch?v=utDu3Q7Flrw&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI (Graph Solutions Leetcode)
-
+- https://www.youtube.com/watch?v=utDu3Q7Flrw&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI (Neet Code Graph Solutions Leetcode)
+- https://www.youtube.com/watch?v=EgI5nU9etnU&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&t=0s (Graph)
 
 ### Leetcode algorithm tags
 - https://leetcode.com/tag/backtracking/
@@ -87,3 +89,11 @@ While vertices remain unvisited
 ## Bellman Ford
 - handles negative weight which Dijkstra can't because Dijkstra is greedy
 - both bellman and dijkstra fail on graph with negative cycles.
+
+## CTCT - Interview Preparation Grid
+Go through each of the projects or components of your resume and ensure that you can talk about them in
+detail. Filling out a grid like this may help:
+![img.png](img.png)
+
+### Answering behavioural and situational questions
+
