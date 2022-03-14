@@ -1,4 +1,4 @@
-package collections;
+package interviewprep.collection;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

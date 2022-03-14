@@ -48,8 +48,6 @@ public class GenerateParentheses {
         if (left < right) {
             process(prefix + ')', left, right - 1, result);
         }
-
-        System.out.println("here");
     }
 }
 

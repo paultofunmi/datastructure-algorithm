@@ -28,9 +28,9 @@ class Solution {
     public static void main(String[] args) {
         
         System.out.println(Solution.maxProduct(new int[]{-2, 0, -1}));
-        System.out.println(Solution.maxProduct(new int[]{-2, 3, -4}));
-        System.out.println(Solution.maxProduct(new int[]{-2, 3, 0, -4, -6}));
-        System.out.println(Solution.maxProduct(new int[]{-2, 3, -2, 4}));
+//        System.out.println(Solution.maxProduct(new int[]{-2, 3, -4}));
+//        System.out.println(Solution.maxProduct(new int[]{-2, 3, 0, -4, -6}));
+//        System.out.println(Solution.maxProduct(new int[]{-2, 3, -2, 4}));
 
     }
 }

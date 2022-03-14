@@ -1,4 +1,4 @@
-package multithreading;
+package concurrency;
 
 //public class MultiThreading implements Runnable {
 public class MultiThreading extends Thread {

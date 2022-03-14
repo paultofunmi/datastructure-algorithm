@@ -3,10 +3,14 @@ package com.solutions;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Count the first non-repeating character in a string
+ */
 public class GSII {
 
     public static char countFirst(String input)
     {
+
         if(input == null) return 0;
         Map<Character, Integer> map = new HashMap<>();
 

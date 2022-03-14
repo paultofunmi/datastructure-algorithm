@@ -1,5 +1,8 @@
-package collections;
+package interviewprep.collection;
 
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 import java.util.Map;
@@ -7,6 +10,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.TreeMap;
 
 // https://www.callicoder.com/java-hashmap/
 // HashMap implements Map
@@ -156,6 +160,44 @@ public class HashMapTutorial {
         // HashMapTutorial.testPutFunction();
         // HashMapTutorial.accessKeysFromHashMap();
         // HashMapTutorial.removeKeysFromHashMap();
-        HashMapTutorial.loopingThroughHashMap();
+        // HashMapTutorial.loopingThroughHashMap();
+
+        Node n1 = new Node(1);
+        Node n2 = new Node(2);
+        Node n3 = new Node(3);
+        Set<Node> hashSet = new HashSet<>();
+
+        hashSet.add(n1);
+        hashSet.add(n2);
+        hashSet.add(n3);
+//        System.out.println(hashSet);
+
+        Set<String> linkedSet = new LinkedHashSet<>();
+        linkedSet.add(null);
+        linkedSet.add("1");
+        linkedSet.add(null);
+        System.out.println("linkedSet: " + linkedSet);
+
+        Map<String, String> linkedMap = new LinkedHashMap<>();
+        linkedMap.put(null, "1");
+        linkedMap.put(null, "2");
+        linkedMap.put(null, "3");
+        System.out.println("linkedMap: " + linkedMap);
+    }
+
+    static class Node {
+
+        int val;
+
+        Node(int val) {
+            this.val = val;
+        }
+
+        @Override
+        public String toString() {
+            return "Node{" +
+                    "val=" + val +
+                    '}';
+        }
     }
 }
