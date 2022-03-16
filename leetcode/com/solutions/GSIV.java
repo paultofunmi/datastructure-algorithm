@@ -76,7 +76,6 @@ public class GSIV {
          */
         public static boolean doTestsPass()
         {
-            // TODO: implement more test cases
             String[][] tc1 = { { "Bobby", "87" },
                     { "Charles", "100" },
                     { "Eric", "64" },
