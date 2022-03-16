@@ -1,4 +1,4 @@
-package com.solutions;
+package com.gs;
 
 import java.io.*;
 import java.util.*;
@@ -28,7 +28,7 @@ import java.util.*;
  **                                                           v
  **   The total for this example would be 10 (2+0+1+1+1+0+5).
  */
-public class GS {
+public class GSII {
     /*
      **  Find the optimal path.
      */

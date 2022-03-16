@@ -1,4 +1,4 @@
-package com.solutions;
+package com.gs;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,15 +6,16 @@ import java.util.Map;
 /**
  * Count the first non-repeating character in a string
  */
-public class GSII {
+public class GSI {
 
     public static char countFirst(String input)
     {
-
         if(input == null) return 0;
-        Map<Character, Integer> map = new HashMap<>();
 
-        for(char currentChar: input.toCharArray()) {
+        Map<Character, Integer> map = new HashMap<>();
+        char[] inputArray = input.toCharArray();
+
+        for(char currentChar: inputArray) {
 
             if(map.containsKey(currentChar)) {
                 map.put(currentChar, map.get(currentChar) + 1);
@@ -23,7 +24,7 @@ public class GSII {
             }
         }
 
-        for(char currentChar: input.toCharArray()) {
+        for(char currentChar: inputArray) {
             if(map.get(currentChar) == 1) return currentChar;
         }
 

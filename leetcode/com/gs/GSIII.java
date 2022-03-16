@@ -1,4 +1,4 @@
-package com.solutions;
+package com.gs;
 
 import java.util.*;
 public class GSIII {

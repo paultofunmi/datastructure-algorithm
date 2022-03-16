@@ -1,6 +1,5 @@
-package com.solutions;
+package com.gs;
 
-import java.io.*;
 import java.util.*;
 
 public class GSIV {
@@ -44,19 +43,19 @@ public class GSIV {
             Map<String, List<Integer>> map = new HashMap<>();
             double result = Double.MIN_VALUE;
 
-            for(int row = 0; row < scores.length; row++) {
+            for(String[] score: scores) {
 
-                if(scores[row][0] == null) continue;
+                if(score[0] == null) continue;
 
-                if(map.containsKey(scores[row][0])) {
-                    map.put(scores[row][0],
+                if(map.containsKey(score[0])) {
+                    map.put(score[0],
                             List.of(
-                                    Integer.valueOf(scores[row][1]) + map.get(scores[row][0]).get(0) ,
-                                    map.get(scores[row][0]).get(1)+ 1
+                                    Integer.parseInt(score[1]) + map.get(score[0]).get(0) ,
+                                    map.get(score[0]).get(1)+ 1
                             )
                     );
                 }else {
-                    map.put(scores[row][0], List.of(Integer.valueOf(scores[row][1]), 1));
+                    map.put(score[0], List.of(Integer.valueOf(score[1]), 1));
                 }
             }
 
