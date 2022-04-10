@@ -94,5 +94,4 @@ Go through each of the projects or components of your resume and ensure that you
 detail. Filling out a grid like this may help:
 ![img.png](img.png)
 
-### Answering behavioural and situational questions
 
