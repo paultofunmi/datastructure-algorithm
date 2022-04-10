@@ -32,7 +32,6 @@ Avoid these:
 - https://github.com/paultofunmi/coding-interview-university
 - https://github.com/paultofunmi/system-design-primer
 - https://leetcode.com/discuss/interview-experience/433178/Amazon-or-SDE3-or-Dallas-or-Nov-2019
-- https://leetcode.com/discuss/interview-experience/433178/Amazon-or-SDE3-or-Dallas-or-Nov-2019
 
 ### Basics
 - https://www.youtube.com/watch?v=tWVWeAqZ0WU (Graph Basics - freecodecamp - Alvin)
