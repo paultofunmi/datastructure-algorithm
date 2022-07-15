@@ -50,6 +50,7 @@ Avoid these:
 - https://www.youtube.com/watch?v=EgI5nU9etnU&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&t=0s (Graph)
 
 ### Leetcode algorithm tags
+- Solution to over 2000 problems (https://leetcode.com/anarchaworld/)
 - https://leetcode.com/tag/backtracking/
 - https://leetcode.com/tag/matrix/
 - https://leetcode.com/tag/array/
